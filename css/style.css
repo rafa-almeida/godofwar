@@ -1,0 +1,15 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.home{
+    background-size: cover;
+    height: 100%;
+}
+
+.title{
+    color: aliceblue;
+}
