@@ -5,11 +5,33 @@
     
 }
 
-.home{
+.home img {
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
+    width: 100%;
+    opacity: 0.9;
 }
 
-.title{
-    color: aliceblue;
+.title .principal{
+    font-family: 'Playfair', sans-serif;
+    position: absolute;
+    color: white;
+    text-align:justify;
+    top: 30%;
+    padding: 35px;
+    height: 270px;
+    width: 770px;
+}
+
+.title .principal .nav{
+    
+    text-align:center;
+    top: 30%;
+    padding: 35px;
+}
+
+.title .principal .nav ul li a{
+    text-decoration: none;
+    color: white;
 }
