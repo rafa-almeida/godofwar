@@ -13,25 +13,39 @@
     opacity: 0.9;
 }
 
+.title .logo img{
+    margin-left: 50px;
+    
+    width: 300px;
+}
+
+.title .principal .logo h1{
+    margin-top: 35px;
+    margin-bottom: 25px; 
+    text-align: center;
+}
+
 .title .principal{
     font-family: 'Playfair', sans-serif;
     position: absolute;
     color: white;
     text-align:justify;
-    top: 30%;
+    top: 15%;
     padding: 35px;
     height: 270px;
-    width: 770px;
+    width: 500px;
+    
 }
 
-.title .principal .nav{
-    
+.title .principal .gallery ul li {
+    font-size: 18px;
+    list-style: none;
     text-align:center;
     top: 30%;
-    padding: 35px;
+    margin-bottom: 20px;
 }
 
-.title .principal .nav ul li a{
+.title .principal .gallery a{
     text-decoration: none;
     color: white;
 }
