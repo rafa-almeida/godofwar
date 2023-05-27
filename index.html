@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
     <title>God of War</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,21 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Charm&family=Montserrat&family=Playfair:wght@500&display=swap" rel="stylesheet">
     <script src="trocaimg.js"></script>
 </head>
+
 <body>
+    
     <section id="home" class="home">
+        
         <header>
             <div>
-                <img src="images/1.jpg" alt="God of War">
+                <img id="trocaimagem" src="images/fundo1.jpg" alt="God of War">
+                <button class="theme" onclick="trocar()">Mudar tema</button>    
             </div> 
-            <div>
-                <img id="trocaimg" src="images/3.jpg" alt="God of War">
-            </div> 
-
+            
         </header>
     </section>
 
     <section id="title" class="title">
         <header>
+            
             <div class="principal">
                 <div class="logo">
                     <img src="images/logo.png" alt="God of War">
@@ -43,11 +45,12 @@
                         <li>
                             <a href="#">Videos</a>
                         </li>
-                    </ul>         
+                    </ul>  
+                </nav>    
+                   
             </div>
-        </header>
+            <audio id="audio" autoplay><source src="audio/audio 01.mp3" type="audio/mpeg">
+        </header>         
     </section>
-    
 </body>
-
 </html>

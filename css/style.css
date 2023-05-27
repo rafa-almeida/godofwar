@@ -11,6 +11,22 @@
     height: 100%;
     width: 100%;
     opacity: 0.9;
+    
+}
+
+.theme {
+    font-family: 'Playfair', sans-serif;
+    font-size: 25px;
+    background-color: aliceblue;
+    margin-top: 0;
+    border-color:white;
+    border-radius: 10px 10px;
+    
+
+    
+    
+    
+    justify-content:center;
 }
 
 .title .logo img{
