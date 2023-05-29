@@ -3,54 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>God of War</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Charm&family=Montserrat&family=Playfair:wght@500&display=swap" rel="stylesheet">
-    <script src="trocaimg.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    
-    <section id="home" class="home">
-        
-        <header>
-            <div>
-                <img id="trocaimagem" src="images/fundo1.jpg" alt="God of War">
-                <button class="theme" onclick="trocar()">Mudar tema</button>    
-            </div> 
-            
-        </header>
-    </section>
-
-    <section id="title" class="title">
-        <header>
-            
-            <div class="principal">
-                <div class="logo">
-                    <img src="images/logo.png" alt="God of War">
-                    <h1> TOME O SEU LUGAR NO OLIMPO! </h1>
+    <section>
+        <div>
+            <img id="trocaimagem" src="images/fundo1.jpg" alt="God of War">
+        </div>         
+        <section id="title" class="title">
+            <header class="principal">
+                <div class="audio">
+                    <audio  controls autoplay><source src="audio/audio 01.mp3" type="audio/mpeg">
                 </div>
-                
-                <nav class="gallery">
-                    <ul>
-                        <li>
-                            <a href="#">História</a>
-                        </li>
-                        <li>
-                            <a href="#">Galeria de imagens</a>
-                        </li>  
-                        <li>
-                            <a href="#">Videos</a>
-                        </li>
-                    </ul>  
-                </nav>    
-                   
-            </div>
-            <audio id="audio" autoplay><source src="audio/audio 01.mp3" type="audio/mpeg">
-        </header>         
+                <div class="itens">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="God of War">
+                        <h1> TOME O SEU LUGAR NO OLIMPO! </h1>
+                    </div>
+                    
+                    <nav class="gallery">
+                        <ul>
+                            <li>
+                                <a href="#">História</a>
+                            </li>
+                            <li>
+                                <a href="#">Galeria de imagens</a>
+                            </li>  
+                            <li>
+                                <a href="https://www.youtube.com/embed/x6oF3Jxu7X0" target="_blank">Trailer</a>
+                            </li>
+                            <li>
+                                <a onclick="trocar()"href= "#">Mudar tema</a>
+                            </li>
+                        </ul>  
+                    </nav>    
+                </div>  
+                <footer class="footer">
+                    2023 Todos os direitos reservados.
+                </footer>
+            </header> 
+        </section>
     </section>
 </body>
 </html>

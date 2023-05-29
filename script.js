@@ -17,3 +17,4 @@ function trocar(){
     imgAnterior2 = aux;
 }
 
+

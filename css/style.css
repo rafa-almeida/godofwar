@@ -4,34 +4,17 @@
     box-sizing: border-box;
     
 }
-
-.home img {
+#trocaimagem {
     background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+    background-attachment:fixed;
+    width: 213vh;
+    height: 169vh;
     opacity: 0.9;
-    
-}
-
-.theme {
-    font-family: 'Playfair', sans-serif;
-    font-size: 25px;
-    background-color: aliceblue;
-    margin-top: 0;
-    border-color:white;
-    border-radius: 10px 10px;
-    
-
-    
-    
-    
-    justify-content:center;
 }
 
 .title .logo img{
+    margin-top: 70px;
     margin-left: 50px;
-    
     width: 300px;
 }
 
@@ -39,18 +22,16 @@
     margin-top: 35px;
     margin-bottom: 25px; 
     text-align: center;
+    width: 400px;
 }
 
 .title .principal{
     font-family: 'Playfair', sans-serif;
     position: absolute;
     color: white;
-    text-align:justify;
     top: 15%;
     padding: 35px;
     height: 270px;
-    width: 500px;
-    
 }
 
 .title .principal .gallery ul li {
@@ -64,4 +45,23 @@
 .title .principal .gallery a{
     text-decoration: none;
     color: white;
+    width: 400px;
+}
+
+.audio{
+  display: flex;
+  margin-left: 922px;
+  margin-top: -120px;
+  justify-self: center;
+}
+
+.itens {
+    width: 400px;
+}
+
+.footer {
+    font-family: 'Playfair', sans-serif;
+    margin-top: 530px;
+    display: flex;
+    justify-content:center;
 }
