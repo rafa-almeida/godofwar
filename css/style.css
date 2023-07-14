@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Skranji', cursive;
     
 }
 #trocaimagem {
     background-size: cover;
     background-attachment:fixed;
-    width: 213vh;
-    height: 169vh;
+    width: 100%;
+    height: 100%;
     opacity: 0.9;
+    object-fit: cover;
 }
 
 .title .logo img{
@@ -29,7 +32,7 @@
     font-family: 'Playfair', sans-serif;
     position: absolute;
     color: white;
-    top: 15%;
+    top: 18%;
     padding: 35px;
     height: 270px;
 }
@@ -46,6 +49,11 @@
     text-decoration: none;
     color: white;
     width: 400px;
+}
+
+a:hover {
+    background-color: red;
+    border-radius: 1rem;
 }
 
 .audio{
@@ -65,3 +73,245 @@
     display: flex;
     justify-content:center;
 }
+
+/* h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    cursor: default;
+  } */
+
+  h1:hover {
+    border-radius: 1rem;
+    color: red;
+}
+  
+  h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 8pt;
+    font-weight: 400;
+    cursor: default;
+  }
+  
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    color: white;
+    cursor: default;
+  }
+
+/* Player Style new feature added */  
+
+  .player {
+    height: 141px;
+    width: 374px;
+    background-color: #1e2125d9;
+    position: absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 16%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 1rem;
+  }
+  .player ul {
+    list-style: none;
+  }
+  .player ul li {
+    display: inline-block;
+  }
+  
+  .cover {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-radius: 1rem;
+  }
+  .cover img {
+    height: 139px;
+    width: 149px;
+    border-radius: 1rem;
+    opacity: 0.9;
+  }
+  
+  .info h1 {
+    margin-top: 15px;
+    margin-left: 170px;
+    line-height: 1;
+  }
+  .info h4 {
+    margin-left: 170px;
+    line-height: 20px;
+    color: #636367;
+  }
+  .info h2 {
+    margin-left: 170px;
+  }
+  
+  .button-items {
+    margin-left: 170px;
+  }
+  
+  #slider {
+    width: 182px;
+    height: 4px;
+    background: #151518;
+    border-radius: 2px;
+  }
+  #slider div {
+    width: 4px;
+    height: 4px;
+    margin-top: 1px;
+    background: #af1818;
+    border-radius: 2px;
+  }
+  
+  #timer {
+    color: #494b4e;
+    line-height: 2;
+    font-size: 9pt;
+    float: right;
+    font-family: Arial, Sans-Serif;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  .controls svg:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #play {
+    padding: 0 3px;
+    width: 30px;
+    height: 30px;
+    x: 0px;
+    y: 0px;
+    enable-background: new 0 0 25 25;
+  }
+  #play g {
+    stroke: #fefefe;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+  }
+  #play g path {
+    fill: #fefefe;
+  }
+  
+  #play:hover {
+    cursor: pointer;
+  }
+  #play:hover g {
+    stroke: #af1818;
+    cursor: pointer;
+  }
+  #play:hover g path {
+    fill: #af1818;
+    cursor: pointer;
+  }
+  
+  .step-backward {
+    width: 18px;
+    height: 18px;
+    x: 0px;
+    y: 0px;
+    enable-background: new 0 0 25 25;
+    margin-bottom: 5px;
+  }
+  .step-backward g polygon {
+    fill: #fefefe;
+  }
+  
+  .step-foreward {
+    width: 18px;
+    height: 18px;
+    x: 0px;
+    y: 0px;
+    enable-background: new 0 0 25 25;
+    margin-bottom: 5px;
+  }
+  .step-foreward g polygon {
+    fill: #fefefe;
+  }
+  
+  #pause {
+    x: 0px;
+    y: 0px;
+    enable-background: new 0 0 25 25;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: -38px;
+    cursor: pointer;
+  }
+  #pause rect {
+    fill: white;
+  }
+  
+  #pause:hover rect {
+    fill: #af1818;
+  }
+  
+  .step-backward g polygon:hover,
+  .step-foreward g polygon:hover {
+    fill: #af1818;
+    cursor: pointer;
+  }
+  
+  .social {
+    text-align: center;
+    position: relative;
+    top: -8rem;
+  }
+  
+  .twitter {
+    color: #bdbdbd;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  .twitter:hover {
+    background-color: #0c528f;
+    color: #fff;
+  }
+  
+  .github {
+    color: #bdbdbd;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  .github:hover {
+    background-color: #fff;
+    color: #151518;
+  }
+  
+  p {
+    color: #bdbdbd;
+  }
+  
+  #skip {
+    float: right;
+    margin-top: 10px;
+  }
+  #skip p {
+    color: #2980b9;
+  }
+  #skip p:hover {
+    color: #e74c3c;
+    cursor: pointer;
+  }
+  
+  .expend {
+    padding: 0.5px;
+    cursor: pointer;
+  }
+  .expend svg:hover g polygon {
+    fill: #af1818;
+  }
